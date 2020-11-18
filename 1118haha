@@ -1,0 +1,18 @@
+import javax.swing.*;
+
+public class SWS {
+    private JPanel mypla;
+    void go() {
+        JFrame frame = new JFrame("SWS");
+        frame.setContentPane(mypla);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setBounds(200,300,600,300);
+
+        frame.setVisible(true);
+    }
+    public static void main(String[] args){
+        new App().go();
+    }
+}
+
+
