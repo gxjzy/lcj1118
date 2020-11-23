@@ -11,7 +11,7 @@ public class App {
             int ran2 = (int) (Math.random() * (max - min) + min);
             int ran3 = (int) (Math.random() * (max - min) + min);
 
-            System.out.println(ran2 + "," + ran3);
+            System.out.println("(X:"+ran2 + "," + "Y:"+ran3+")");
         }
     }
 }
