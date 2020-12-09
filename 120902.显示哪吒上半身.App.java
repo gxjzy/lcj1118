@@ -9,9 +9,8 @@ public class App {
 //    创建二维数组
     int array2d[][]={
             {1,2,3},
-            {4,5,6},
-            {7,8,9},
-            {10,11,0}
+            {4,5,6}
+
     };
     //赋值变量cnt为0
     int cnt=0;
@@ -19,7 +18,7 @@ public class App {
     int cell=128;
     //构造方法
     public App() {
-        for (int i = 0; i <=11; i++) {
+        for (int i = 0; i <=5; i++) {
             label_list.add(new JLabel());
             java.net.URL imgURL = App.class.getResource("img/nezha_"+String.valueOf(i)+".png");
             label_list.get(i).setIcon(new ImageIcon(imgURL));
